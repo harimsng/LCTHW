@@ -1,0 +1,18 @@
+set -e;
+make ex17;
+echo "./ex17 db.dat c";
+./ex17 db.dat c;
+echo "\n./ex17 db.dat s 1 zed zed@zedshaw.com";
+./ex17 db.dat s 1 zed zed@zedshaw.com;
+echo "./ex17 db.dat s 2 frank frank@zedshaw.com";
+./ex17 db.dat s 2 frank frank@zedshaw.com;
+echo "./ex17 db.dat s 3 joe joe@zedshaw.com";
+./ex17 db.dat s 3 joe joe@zedshaw.com;
+echo "\n./ex17 db.dat l";
+./ex17 db.dat l;
+echo "\n./ex17 db.dat d 3";
+./ex17 db.dat d 3;
+echo "\n./ex17 db.dat l";
+./ex17 db.dat l;
+echo "\n./ex17 db.dat g 2";
+./ex17 db.dat g 2;
