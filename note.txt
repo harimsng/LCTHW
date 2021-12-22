@@ -1,0 +1,16 @@
+Type conversion order
+1. long double
+2. double
+3. float
+4. int (but only char and short int);
+5. long ???
+
+2. long double
+3. double
+4. float
+5. unsigned long long int
+6. long long int
+7. unsigned long int
+8. long int
+9. unsigned int
+10. int
